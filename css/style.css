@@ -1,0 +1,11 @@
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+}
+.container:has(h1){
+    color: red;
+}
+
+body>h1{
+    color: green;
+}
